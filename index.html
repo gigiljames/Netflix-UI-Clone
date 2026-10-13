@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Netflix</title>
+  </head>
+  <body onscroll="handleScroll()">
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+    <script>
+      function handleScroll() {
+        let gradients = [
+          "linear-gradient(180deg,rgba(0, 0, 0, 0.8) 0%,rgba(255, 255, 255, 0) 100%)",
+          "linear-gradient(180deg,rgba(0, 0, 0, 1) 0%,rgba(0,0,0,1) 100%)",
+          "rgb(0,0,0)",
+        ];
+        let navbar = document.querySelector(".navbar");
+        if (window.scrollY > 150) {
+          navbar.style.background = gradients[2];
+          // navbar.style.background = gradients[1];
+        } else {
+          navbar.style.background = gradients[0];
+        }
+      }
+    </script>
+  </body>
+</html>

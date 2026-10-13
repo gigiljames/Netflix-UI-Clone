@@ -1,0 +1,8 @@
+/* .main {
+  position: relative;
+} */
+
+.navbar {
+  position: fixed;
+  top: 0;
+}

@@ -1,0 +1,39 @@
+:root {
+  --footer-color: rgb(131, 131, 131);
+}
+
+.footer {
+  color: var(--footer-color);
+  font-size: 13px;
+  padding: 0 17%;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  margin-bottom: 20px;
+}
+
+.footer a {
+  text-decoration: none;
+  color: var(--footer-color);
+  font-size: 13px;
+}
+
+.footer-links {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  row-gap: 15px;
+  grid-auto-flow: row;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+.service-code {
+  padding: 5px;
+  border: 1px solid var(--footer-color);
+  width: fit-content;
+}
+
+.service-code a {
+}

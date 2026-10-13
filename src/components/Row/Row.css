@@ -1,0 +1,28 @@
+.row {
+  padding-left: 4%;
+  margin-bottom: 30px;
+}
+
+.row-title {
+  margin-bottom: 16px;
+}
+
+.row-list {
+  z-index: 5;
+  position: relative;
+  transform: translateY(-110px);
+}
+
+.movie-list {
+  display: flex;
+  gap: 5px;
+  overflow-x: scroll;
+}
+
+.movie-list img {
+  border-radius: 3px;
+}
+
+.movie-list::-webkit-scrollbar {
+  visibility: hidden;
+}

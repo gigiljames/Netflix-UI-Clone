@@ -1,0 +1,71 @@
+#main-logo {
+  height: 25px;
+}
+
+.navbar {
+  padding: 0px 4%;
+  height: 70px;
+  z-index: 99;
+  /* background-color: rgba(0, 0, 0, 0.3); */
+
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: background 0.4s ease-out;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.8) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+
+.left {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
+.navbar-list {
+  color: rgb(243, 242, 242);
+  display: flex;
+  list-style: none;
+  gap: 15px;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.navbar-list a {
+  color: rgb(243, 242, 242);
+  text-decoration: none;
+  transition: color 0.3s ease-in;
+  z-index: 5;
+}
+
+.navbar-list a:hover {
+  color: rgb(192, 192, 192);
+}
+
+.list-2 {
+  gap: 20px;
+}
+
+.navbar-list li {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.navbar-list b {
+  color: white;
+}
+
+#profile-logo {
+  height: 30px;
+  border-radius: 3px;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+}

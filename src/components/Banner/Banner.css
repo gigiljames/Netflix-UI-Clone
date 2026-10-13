@@ -1,0 +1,125 @@
+.banner {
+  height: 110vh;
+  background-image: url("../../../public/AAAABZ1Jkwia560ueictuKWj4HdOEdvyUTbe57lczCYX14AsDriUc_msUOzWiuh8sGw_JzNTMQr7K9k2jUBWYBr_xlcBfKH1_1-zU8Zt.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.banner .button-group {
+  display: flex;
+}
+
+.banner-info {
+  color: white;
+  position: absolute;
+  bottom: 160px;
+  left: 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  z-index: 5;
+}
+
+.banner-info button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  margin-right: 12px;
+  font-size: 20px;
+}
+
+.bottom-shade-layer {
+  height: 14.7vw;
+  background-color: white;
+  position: absolute;
+  bottom: 0;
+  z-index: 4;
+  width: 100%;
+  /* background: rgb(0, 0, 0); */
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+
+#button1,
+#button2 {
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+#button1:hover {
+  background-color: rgb(216, 216, 216);
+}
+
+#button2 {
+  color: white;
+  background-color: rgba(112, 112, 112, 0.704);
+}
+
+#button2:hover {
+  background-color: rgba(112, 112, 112, 0.454);
+}
+
+.desc-para {
+  width: 500px;
+  line-height: 25px;
+  font-size: 18px;
+}
+
+.dot-symbol {
+  font-size: 24px;
+  color: rgba(255, 255, 255, 0.701);
+}
+
+.game-title {
+  display: flex;
+  gap: 10px;
+}
+
+.game-title-left img {
+  height: 100px;
+  border-radius: 15px;
+}
+
+.game-title-right {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+}
+
+.game-title-right img {
+  height: 20px;
+  width: fit-content;
+}
+
+.genre-para {
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-weight: 600;
+}
+
+.send-icon {
+  transform: rotateZ(-35deg) translate(5px);
+}
+
+.shade-layer {
+  /* background-color: rgba(0, 0, 0, 0.15); */
+  /* background: rgb(0, 0, 0); */
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0.5) 0%,
+    rgba(0, 0, 0, 0) 60%
+  );
+  height: 100%;
+  width: 100%;
+  position: relative;
+}

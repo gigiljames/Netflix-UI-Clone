@@ -1,0 +1,52 @@
+.card {
+  color: white;
+  min-width: 200px;
+}
+
+.card-content {
+  padding: 15px;
+}
+
+.big-card {
+  border-radius: 10px;
+  background-color: rgb(42, 42, 42);
+  width: fit-content;
+  overflow: hidden;
+  position: absolute;
+  transform: translateX(-50px) translateY(-50px);
+}
+
+.button-line {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.button-line button {
+  padding: 5px;
+  border-radius: 50%;
+  border: 2px solid white;
+  color: white;
+  height: 35px;
+  width: 35px;
+  background-color: rgb(58, 58, 58);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.left-group {
+  display: flex;
+  gap: 10px;
+}
+
+.movie-title {
+  width: 250px;
+  text-overflow: ellipsis;
+  margin-bottom: 10px;
+}
+
+#play-button {
+  color: black;
+  background-color: white;
+}
